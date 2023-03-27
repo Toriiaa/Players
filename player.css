@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.select-player{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-style: none;
+    background-color: rgba(205, 202, 202, 0.626);
+    color: black;
+}
+.hide{
+    display: none;
+}
+.main-content{
+  
+    color: white;
+    padding: 20px;
+    width: auto;
+}
+
+.card-head{
+    background-color: white;
+    width: 100%;
+    
+}
+.card-body{
+    background-color: rgb(226, 46, 76);
+    width: auto;
+    padding: 4%;
+}
+.group{
+    background-color: white;
+    margin: 5px;
+    padding: 2%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#position{
+    font-size: small;
+    padding: 2px;
+    margin:3px 0px;
+}
