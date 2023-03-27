@@ -38,7 +38,7 @@ function loadData (e){
      });
 
      filteredData.forEach(function(player){
-      // console.log(player.player.name.first)
+      
       let image = `<img style='width:100%; height:100%' src ='${player.player.info.image}'/>`
       cardHead.innerHTML = image;
       
@@ -66,7 +66,7 @@ function loadData (e){
       let passesperMinuteadd =((player.stats[4].value + player.stats[8].value) / player.stats[7].value).toFixed(2) ;
       const passesperMinute = `<p>Passes per minute: <p> <a> ${passesperMinuteadd} <a>`;
       pass.innerHTML = passesperMinute;
-        // console.log(Array(filteredData))
+        
         
         
         })
